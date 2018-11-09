@@ -1,0 +1,116 @@
+html {
+	height: 100%;
+}
+
+.navbar {
+	margin-bottom: 0 !important;
+}
+
+.navbar-default {
+	background-color: black !important;
+	border-color: transparent !important;
+}
+
+#header {
+	background: url("https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7fd96e0ad7ded7859170aa9629338a02&auto=format&fit=crop&w=750&q=80 750w");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-align: center;
+	font-family: Notable, sans-serif;
+	height: 800px;
+	margin: 0;
+}
+
+h1{
+	padding-top: 100px;
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#features{
+	display: flex; 
+	flex-direction: row;
+}
+
+#feat-con {
+	font-size: 5em;
+}
+
+#box-1 {
+	/*background-color: red;*/
+	width: 33.333%;
+	height: 400px;
+	text-align: center;
+	padding: 70px 10px 10px 10px;
+}
+
+#box-2 {
+	/*background-color: yellow;*/
+	width: 33.333%;
+	height: 400px;
+	text-align: center;
+	padding: 70px 10px 10px 10px;
+}
+
+#box-3 {
+	/*background-color: black;*/
+	width: 33.333%;
+	height: 400px;
+	text-align: center;
+	padding: 70px 10px 10px 10px;
+}
+
+.info {
+	text-align: left;
+}
+
+#video-demo {
+	height: auto;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#contact-us{
+	height: auto;
+	padding: 50px 50px;
+	color: black;
+	background-color: black;
+	background: url("https://images.unsplash.com/photo-1461784121038-f088ca1e7714?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fdb6ebf5fff5c45057753ff1191fa0be&auto=format&fit=crop&w=1350&q=80 1350w");
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+}
+
+.inner-form{
+	background-color: rgba(192,192,192,0.7);
+	padding: 200px 400px;
+	border-radius: 25px;
+}
+
+input[type=email] {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(182,182,182,0.7);
+    color: black;
+}
+
+input[type=submit] {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: black;
+    background-color: yellow;
+    color: black;
+    border-radius: 25px;
+}
+
